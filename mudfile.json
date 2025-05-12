@@ -1,7 +1,7 @@
 {
     "version": "1.0",
-    "mud_url": "https://localhost/mudfile.json",
-    "mud-signature": "https://localhost/mudfile.json.p7s",
+    "mud_url": "https://amritaiot.github.io/mudtest/mudfile.json",
+    "mud-signature": "https://amritaiot.github.io/mudtest/mudfile.json.p7s",
     "device_name": "Sample IoT Device",
     "device_type": "Temperature Sensor",
     "policy": {
