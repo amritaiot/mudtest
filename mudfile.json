@@ -1,0 +1,36 @@
+{
+    "version": "1.0",
+    "mud_url": "https://localhost/mudfile.json",
+    "mud-signature": "https://localhost/mudfile.json.p7s",
+    "device_name": "Sample IoT Device",
+    "device_type": "Temperature Sensor",
+    "policy": {
+        "rules": [
+            {
+                "action": "allow",
+                "source": "any",
+                "destination": "any",
+                "protocol": "tcp",
+                "port": 80
+            },
+            {
+                "action": "allow",
+                "source": "any",
+                "destination": "any",
+                "protocol": "tcp",
+                "port": 443
+            },
+            {
+                "action": "deny",
+                "source": "any",
+                "destination": "any",
+                "protocol": "any",
+                "port": "any"
+            }
+        ]
+    },
+    "vendor": {
+        "name": "SampleVendor",
+        "contact": "support@example.com"
+    }
+}
